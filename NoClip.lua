@@ -1,0 +1,1 @@
+while true do colo = game.Players.LocalPlayer.Character:GetDescendants(); for _, part in colo do if part:IsA("Part") or part:IsA("MeshPart") or part:IsA("UnionOperation") then part.CanCollide = false end end wait(0.000001); end
